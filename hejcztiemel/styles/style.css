@@ -1,0 +1,85 @@
+body{
+    background-color: #34353E;
+    margin : 0;
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav{
+    background-color: #4F3076;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn_list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    
+}
+.right{
+    width: 40%;
+}
+.left{
+    width: 20%;
+
+}
+.btn_nav{
+    height: 50%;
+    padding: 1rem;
+    margin: 0 1rem;
+    border: none;
+    border-bottom: 3px solid #373f50;
+    background-color: #465064;
+    color: white;
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.info{
+    margin : 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.news{
+    margin : 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container_toleft{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.card_electricbogaloo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    gap: 1rem;
+}
+body { 
+    opacity: 0;
+    transition: opacity .5s;
+ }
