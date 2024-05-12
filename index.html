@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <nav>
+        <div class="left">
+            <h1>Home</h1>
+        </div>
+        <div class="right">
+            <ol class="btn_list">
+                <li><a href="../pages/aboutme.html"><button class="btn_nav">About me</button></a></li>
+                <li><a href="../pages/projects.html"><button class="btn_nav">Projects</button></a></li>
+                <li><a href="pages/contact.html"><button class="btn_nav" onclick="transitionToPage('pages/contact.html')">Contact</button></a></li>
+            </ol>
+        </div>
+    </nav>
+    <div class="content">
+        <div class="info">
+            <div class="left">
+                <h1>Hi, I'm Walter White</span></h1>
+                <p class="desc">I'm a web developer and designer. I love to create beautiful websites and applications. I have a passion for creating and learning new things.</p>
+            </div>
+            <div class="right">
+                <img src="/images/wlodzimiesz.jpg" style="width: 20rem; height: 10rem;">
+            </div>
+        </div>
+        <div class="news">
+            <h2>Latest Project</h2>
+            <div class="card">
+                <img src="/images/gogl2.png" style="width: 50rem;">
+                <p>Curretly lead developer at Google 3: Revenge of the sith</p>
+            </div>
+        </div>
+    </div>
+</body>
+    <script src="scripts/pageTransition.js"></script>
+</html>
